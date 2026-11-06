@@ -1,0 +1,9 @@
+[package]
+name = "pem"
+version = "0.1.0"
+edition.workspace = true
+
+[dependencies]
+strum = { workspace = true }
+tokio-rustls = { workspace = true }
+base64 = { workspace = true }
